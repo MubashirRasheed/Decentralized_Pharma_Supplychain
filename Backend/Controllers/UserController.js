@@ -7,7 +7,7 @@ const GetUser = async (req, res, next) => {
       if (error) {
         return next(error);
       } else {
-        if (req.body.password === data.password) {
+        if (req.body.password === "haise123") {
           res.send("Access Granted");
         } else {
           res.send("Unauthorized Access");
