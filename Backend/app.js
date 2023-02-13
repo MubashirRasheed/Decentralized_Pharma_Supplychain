@@ -21,7 +21,7 @@ app.use(cors());
 // mongoose.connect("mongodb://127.0.0.1:27017/myDB").then(() => {
 //   console.log("Successfully Connected to DB");
 // });
-mongoose.connect("mongodb+srv://dummyuser:Dummyuser123@cluster0.rqdvu3f.mongodb.net/?retryWrites=true&w=majority").then(() => {
+mongoose.connect("").then(() => {
   console.log("Successfully Connected to DB");
 });
 
